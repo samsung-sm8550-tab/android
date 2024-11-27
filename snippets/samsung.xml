@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/samsung/sm8550-common" name="samsung-sm8550-tab/android_device_samsung_sm8550-common" revision="lineage-22" remote="github" />
+  <project path="device/samsung/sm8550-common" name="samsung-sm8550-tab/android_device_samsung_sm8550-common" revision="lineage-22.0" remote="github" />
   <project path="kernel/samsung/sm8550" name="samsung-sm8550-tab/android_kernel_samsung_sm8550" revision="lineage-22.0" remote="github" />
   <project path="hardware/samsung" name="samsung-sm8550-tab/android_hardware_samsung" revision="lineage-22.0" remote="github" />
   <project path="vendor/samsung/sm8550-common" name="samsung-sm8550-tab/android_vendor_samsung_sm8550-common" revision="lineage-22.0" remote="github" />
