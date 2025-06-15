@@ -5,7 +5,10 @@
 
   <remote name="private" fetch="ssh://git@github.com" />
 
-  <remote name="aosp" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-16.0.0_r1" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-16.0.0_r1" />
 
   <default revision="refs/heads/lineage-23.0"
            remote="github"
@@ -33,7 +36,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
   <project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" remote="aosp" />
-  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed,sysui-studio">
+  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed,sysui-studio" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
